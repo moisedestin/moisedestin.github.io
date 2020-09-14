@@ -9,9 +9,9 @@
           <!-- <a href="#">EN</a> -->
           <!-- <a href="{{ site.baseurl }}{{ site.lang = fr }}" >FR</a> -->
            {% if page.lang == "en" %}
-                  <a hreflang="fr" href="{{ "/fr" | prepend: site.baseurl }}" class="active">FR</a>
+                  <a hreflang="fr" href="{{ "/fr" | prepend: site.data.global.baseurl }}" class="active">FR</a>
                   {% else %}
-                  <a hreflang="en" href="{{ "/en" | prepend: site.baseurl }}">EN</a>
+                  <a hreflang="en" href="{{ "/en" | prepend: site.data.global.baseurl }}">EN</a>
            {% endif %}
 
         </div>
