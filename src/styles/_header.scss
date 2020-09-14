@@ -24,6 +24,10 @@
 
 .img-circle{
   border-radius:50%;
+  width: 120px;
+  @media only screen and (min-width:$cut){
+    width: 170px;
+  }
 }
 .ul-lan {
   list-style-type: none;
@@ -43,13 +47,16 @@
   color:white;
   font-weight:bold;
   text-decoration:none;
-  font-size:19px;
+  font-size:15px;
+  @media only screen and (min-width:$cut){
+    font-size: 19px;
+  }
 }
 .dropdown-content {
   display: none;
   position: absolute;
   background-color: #f9f9f9;
-  min-width: 160px;
+  min-width: 90px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
     right:0;

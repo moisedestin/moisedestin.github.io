@@ -7,8 +7,16 @@ en:
   twitter_username: moisedestin
   linkedin_username:  moisedestin
   facebook_username:  moisedestin
+  user_about:  Full Stack Web and Mobile Developer<br/>
+
+                            I have been working as a developer for over three years already. I participate in the implementation of different software projects with companies and groups.<br/>
+
+                             I use the following languages ​​php (Laravel framework), java (Spring) and web technologies Html5, Css3, Javascript(VueJs). I also worked with tools like docker, git and in the system configuration under Linux (hosting applications on vps with provider such as amazon lightsail, vultr, ovh).<br/>
+
+                             Militant for clean codes, I start each project according to a known pattern.
   projects:  Projects
   about_me:  About me
+  about_me_title:  About me
   project_title1:  Mecanom
   project_description1: The Google Haiti team organizes an annual contest to elect the best software project.I was a developer within my team participating in the competition.I created the mobile application, the API for the application and configured the Linux virtual server hosting the API.
   project_title2:  DiskobMizik
@@ -17,7 +25,8 @@ en:
   project_description3: It is a POS web application inspired by quickbooks and phppointofsale for a company specializing in the sale of tires.
                                               I was the full-stack devlopper of this project which was developed in php (laravel framework).
   project_title4:  Payroll System
-  project_description4:  À propos
+  project_description4:  Main developer of this application, it was designed to meet the need of a company to manage its employees,
+                         the system has a human resources manager and a full payroll process with taxes, deductions, earnings, etc.
 fr:
   title: FR
   description: Technical skills, Projects and About of Moïse Destin
@@ -27,8 +36,16 @@ fr:
   twitter_username: moisedestin
   linkedin_username:  moisedestin
   facebook_username:  moisedestin
+  user_about:  Full Stack Web and Mobile Developer<br/>
+
+                   I have been working as a developer for over three years already. I participate in the implementation of different software projects with companies and groups.<br/>
+
+                   I use the following languages ​​php (Laravel framework), java (Spring) and web technologies Html5, Css3, Javascript(VueJs). I also worked with tools like docker, git and in the system configuration under Linux (hosting applications on vps with provider such as amazon lightsail, vultr, ovh).<br/>
+
+                   Militant for clean codes, I start each project according to a known pattern.
   projects:  Projets
   about_me:  À propos
+  about_me_title:  À propos de moi
   project_title1:  Mecanom
   project_description1: The Google Haiti team organizes an annual contest to elect the best software project.I was a developer within my team participating in the competition.I created the mobile application, the API for the application and configured the Linux virtual server hosting the API.
 
@@ -38,4 +55,5 @@ fr:
   project_description3: It is a POS web application inspired by quickbooks and phppointofsale for a company specializing in the sale of tires.
                                             I was the full-stack devlopper of this project which was developed in php (laravel framework).
   project_title4:  Payroll System
-  project_description4:  À propos
+  project_description4:  Main developer of this application, it was designed to meet the need of a company to manage its employees,
+                         the system has a human resources manager and a full payroll process with taxes, deductions, earnings, etc.
