@@ -1,0 +1,42 @@
+  
+  <div id="particles-js">
+    <div class="container-lan">
+      <ul class="ul-lan"> 
+      <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn capitalize">{{page.lang}}
+        <i class="fa fa-caret-down"></i></a>
+        <div class="dropdown-content">
+          <!-- <a href="#">EN</a> -->
+          <!-- <a href="{{ site.baseurl }}{{ site.lang = fr }}" >FR</a> -->
+           {% if page.lang == "en" %}
+                  <a hreflang="fr" href="{{ "/fr" | prepend: site.baseurl }}" class="active">FR</a>
+                  {% else %}
+                  <a hreflang="en" href="{{ "/en" | prepend: site.baseurl }}">EN</a>
+           {% endif %}
+
+        </div>
+      </li>
+    </ul>
+    </div>
+    <div class="header"> 
+         <img alt="mountains" width="170"   class="img-circle" src="{{ "/assets/img/moisedestin_photo.jpg" | prepend: site.baseurl }}" />
+     
+         
+
+        <h1>
+          <span class="site-title">{{site.data.locales[page.lang].username}}</span>
+          <span class="site-description">{{site.data.locales[page.lang].user_title}}</span>
+        </h1>
+        <div class="header-icons">
+          <a aria-label="Send email" href="mailto:{{site.data.locales[page.lang].email}}"><i class="icon fa fa-envelope"></i></a>
+            <a aria-label="My LinkedIn" target="_blank" href="https://www.linkedin.com/in/moisedestin/in/{{site.data.locales[page.lang].linkedin_username}}"><i class="icon fa fa-linkedin  "></i></a>
+            <a aria-label="My Twitter" target="_blank" href="https://twitter.com/{{site.data.locales[page.lang].twitter_username}}"><i class="icon fa fa-twitter" aria-hidden="true"></i></a>
+          <a aria-label="My Facebook" target="_blank" href="https://twitter.com/{{site.data.locales[page.lang].facebook_username}}"> <i class="icon fa fa-facebook  "></i></a>
+        </div>
+        <div class="header-links">
+          <a class="link" href="#about" data-scroll>{{site.data.locales[page.lang].about_me}}</a>
+          <a class="link" href="#projects" data-scroll>{{site.data.locales[page.lang].projects}}</a>
+        </div>
+    </div>
+    <a class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
+  </div>

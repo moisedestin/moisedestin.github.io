@@ -1,0 +1,41 @@
+en:
+  title: EN
+  description: Compétences techniques, Projets et À propos de Moïse Destin
+  username: Moïse Destin
+  user_title: Full Stack Software Developer
+  email: moisedestin@gmail.com
+  twitter_username: moisedestin
+  linkedin_username:  moisedestin
+  facebook_username:  moisedestin
+  projects:  Projects
+  about_me:  About me
+  project_title1:  Mecanom
+  project_description1: The Google Haiti team organizes an annual contest to elect the best software project.I was a developer within my team participating in the competition.I created the mobile application, the API for the application and configured the Linux virtual server hosting the API.
+  project_title2:  DiskobMizik
+  project_description2:  One of the first music streaming platform in Haiti, I worked in the design and development of the application
+  project_title3:  POS System
+  project_description3: It is a POS web application inspired by quickbooks and phppointofsale for a company specializing in the sale of tires.
+                                              I was the full-stack devlopper of this project which was developed in php (laravel framework).
+  project_title4:  Payroll System
+  project_description4:  À propos
+fr:
+  title: FR
+  description: Technical skills, Projects and About of Moïse Destin
+  username: Moïse Destin
+  user_title: Développeur logiciel Full Stack
+  email: moisedestin@gmail.com
+  twitter_username: moisedestin
+  linkedin_username:  moisedestin
+  facebook_username:  moisedestin
+  projects:  Projets
+  about_me:  À propos
+  project_title1:  Mecanom
+  project_description1: The Google Haiti team organizes an annual contest to elect the best software project.I was a developer within my team participating in the competition.I created the mobile application, the API for the application and configured the Linux virtual server hosting the API.
+
+  project_title2:  DiskobMizik
+  project_description2:  One of the first music streaming platform in Haiti, I worked in the design and development of the application
+  project_title3:  POS System
+  project_description3: It is a POS web application inspired by quickbooks and phppointofsale for a company specializing in the sale of tires.
+                                            I was the full-stack devlopper of this project which was developed in php (laravel framework).
+  project_title4:  Payroll System
+  project_description4:  À propos
