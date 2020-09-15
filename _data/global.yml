@@ -1,1 +1,4 @@
 baseurl: https://moisedestin.github.io
+# Google-analytics
+google-analytics:
+  id: "G-NS3YJHDXDS"
