@@ -5,7 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_data/locales.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/locales.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/en/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/en/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/fr/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/fr/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/ws/lib/Constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ws/lib/Constants.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/ws/lib/Receiver.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ws/lib/Receiver.js" afterDir="false" />
@@ -239,7 +238,7 @@
       <option name="presentableId" value="Default" />
       <updated>1600075074088</updated>
       <workItem from="1600075075634" duration="12144000" />
-      <workItem from="1673456327348" duration="2503000" />
+      <workItem from="1673456327348" duration="3470000" />
     </task>
     <servers />
   </component>
