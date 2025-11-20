@@ -9,16 +9,16 @@
   "author": "Nathan Randecker",
   "license": "ISC",
   "dependencies": {
-    "browser-sync": "^2.26.3",
-    "gulp": "^4.0.0",
+    "browser-sync": "^3.0.3",
+    "gulp": "^5.0.0",
     "gulp-concat": "^2.6.1",
-    "gulp-csso": "^3.0.1",
-    "gulp-imagemin": "^5.0.3",
+    "gulp-csso": "^4.0.1",
+    "gulp-imagemin": "^7.1.0",
     "gulp-plumber": "^1.2.1",
-    "gulp-sass": "^4.0.2",
-    "gulp-uglify": "^3.0.1"
+    "gulp-sass": "^5.1.0",
+    "gulp-uglify": "^3.0.2"
   },
   "devDependencies": {
-    "node-sass": "^4.14.1"
+    "sass": "^1.83.0"
   }
 }

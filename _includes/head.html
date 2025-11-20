@@ -4,10 +4,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-  <meta name="description" content="{% if site.data.locales[page.lang].description %}{{ site.data.locales[page.lang].description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="description"
+    content="{% if site.data.locales[page.lang].description %}{{ site.data.locales[page.lang].description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
-  <link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ " /assets/css/main.css" | prepend: site.baseurl }}">
   <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> -->
-  <link rel="apple-touch-icon" sizes="144x144" href="{{ "/assets/img/favicon.png" | prepend: site.baseurl }}">
 
 </head>
